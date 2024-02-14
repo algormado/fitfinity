@@ -1,11 +1,11 @@
 import React from 'react';
-import Reminder from './Reminder';
+import Reminders from './components/Reminders';
 
 const App = () => {
   return (
     <div>
       <h1>Fitness App</h1>
-      <Reminder />
+      <Reminders />
     </div>
   );
 };

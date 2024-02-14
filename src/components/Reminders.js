@@ -1,15 +1,17 @@
-import React from "react";
-import { NotificationsManager } from 'react-notifications'
+import React from 'react';
+import { NotificationManager } from 'react-notifications';
 
-const Reminder = () =>{
-    const showRemainder = () =>{
-        NotificationsManager.info ('Don\'t forget to workout today!')
-    }
+const Reminders = () => {
+  const showReminder = () => {
+    NotificationManager.info('Don\'t forget to workout today!');
+  };
 
-    return (
-        <div>
-            <button onClick={showRemainder}>Show Reminder</button>
-        </div>
-    )
-}
-export default Reminder
+  return (
+    <div>
+      {/* You can trigger this function wherever you want in your app */}
+      <button onClick={showReminder}>Show Reminder</button>
+    </div>
+  );
+};
+
+export default Reminders;
