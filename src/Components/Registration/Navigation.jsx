@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getAuth, onAuthStateChanged, signOut } from 'firebase/auth';
-import './navStyles.css'; 
+import './navStyle.css'; 
 
 const Navigation = () => {
   const [user, setUser] = useState(null);
