@@ -1,4 +1,5 @@
-// Exercise tracking component
+import React, { useState } from 'react';
+
 const ExerciseTracker = () => {
     const [exercise, setExercise] = useState('');
     const [duration, setDuration] = useState('');
@@ -40,4 +41,4 @@ const ExerciseTracker = () => {
       </div>
     );
   };
-  
+  export default ExerciseTracker
