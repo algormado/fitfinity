@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import ProgressTracker from './ProgressTracker';
+import ExerciseTracker from './ExerciseTracker';
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <ProgressTracker />
+      <ExerciseTracker />
     </div>
+    
   );
 }
 
